@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion des Groupes</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <a href="index.html">Accueil</a>
+      </nav>
+    </div>
+    <h1>Gestion des Groupes</h1>
+
+    <div class="container">
+      <div class="group-selection">
+        <label for="group-select">Sélectionner un groupe:</label>
+        <select id="group-select">
+          <option value="aucun">Aucun groupe</option>
+          <option value="1">Groupe 1</option>
+          <option value="2">Groupe 2</option>
+          <option value="3">Groupe 3</option>
+          <option value="4">Groupe 4</option>
+          <option value="5">Groupe 5</option>
+          <option value="6">Groupe 6</option>
+        </select>
+      </div>
+
+      <div class="group-display">
+        <table>
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Numéro</th>
+              <th id="action-header">Action</th>
+            </tr>
+          </thead>
+          <tbody id="students-table-body">
+            <!-- Student rows will be inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

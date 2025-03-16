@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+input,
+button,
+select {
+  margin: 5px;
+  padding: 10px;
+}
+
+ul,
+#students-list {
+  list-style-type: none !important;
+  padding: 0;
+}
+
+/* Student list styling */
+.student-info {
+  display: flex;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.student-number {
+  min-width: 100px;
+  padding: 5px 10px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.student-lastname {
+  min-width: 150px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.student-firstname {
+  min-width: 200px;
+  padding: 5px 10px;
+}
+
+/* Make the list item a flex container */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+}
+
+/* Better button styling */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.group-circles {
+  display: flex;
+  gap: 8px;
+}
+
+.group-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.group-circle:hover {
+  background-color: #e0e0e0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.group-selection {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.student-actions {
+  display: inline-flex;
+  gap: 8px;
+  margin-left: 16px;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.message {
+  position: fixed !important;
+  top: 20px;
+  left: 50% !important;
+  transform: translateX(-50%);
+  z-index: 1000;
+  text-align: center;
+  max-width: 80%;
+  min-width: 300px;
+}
+
+#student-list {
+  width: 75%;
+  margin: 0 auto; /* This centers the element */
+  max-width: 1200px; /* Optional: prevents getting too wide on large screens */
+}
+
+.student-form {
+  width: 75%;
+  margin: 20px auto;
+  max-width: 1200px;
+}

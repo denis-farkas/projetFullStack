@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion des étudiants</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <a href="index.html">Accueil</a>
+      </nav>
+    </div>
+    <h1>Liste des étudiants</h1>
+
+    <div class="student-form">
+      <h2>Ajouter un étudiant</h2>
+      <input type="text" id="studentNumber" placeholder="Numéro étudiant" />
+      <input type="text" id="lastName" placeholder="Nom (MAJUSCULES)" />
+      <input
+        type="text"
+        id="firstNames"
+        placeholder="Prénoms (séparés par des virgules)"
+      />
+      <button id="addStudent">Ajouter</button>
+      <button id="clear">Effacer</button>
+    </div>
+
+    <div id="student-list"></div>
+  </body>
+</html>
